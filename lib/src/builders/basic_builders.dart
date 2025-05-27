@@ -91,6 +91,54 @@ class TextBuilder extends LeafWidgetBuilder<Text, TextBuilder>
     );
     return self;
   }
+
+  /// 设置文本颜色
+  TextBuilder color(Color color) {
+    _style = (_style ?? const TextStyle()).copyWith(color: color);
+    return self;
+  }
+
+  /// 设置字体大小
+  TextBuilder fontSize(double size) {
+    _style = (_style ?? const TextStyle()).copyWith(fontSize: size);
+    return self;
+  }
+
+  /// 设置字体粗细
+  TextBuilder fontWeight(FontWeight weight) {
+    _style = (_style ?? const TextStyle()).copyWith(fontWeight: weight);
+    return self;
+  }
+
+  /// 设置字体样式
+  TextBuilder fontStyle(FontStyle style) {
+    _style = (_style ?? const TextStyle()).copyWith(fontStyle: style);
+    return self;
+  }
+
+  /// 设置文本装饰
+  TextBuilder decoration(TextDecoration decoration) {
+    _style = (_style ?? const TextStyle()).copyWith(decoration: decoration);
+    return self;
+  }
+
+  /// 设置字母间距
+  TextBuilder letterSpacing(double spacing) {
+    _style = (_style ?? const TextStyle()).copyWith(letterSpacing: spacing);
+    return self;
+  }
+
+  /// 设置单词间距
+  TextBuilder wordSpacing(double spacing) {
+    _style = (_style ?? const TextStyle()).copyWith(wordSpacing: spacing);
+    return self;
+  }
+
+  /// 设置行高
+  TextBuilder height(double height) {
+    _style = (_style ?? const TextStyle()).copyWith(height: height);
+    return self;
+  }
   
   /// 设置文本对齐方式
   TextBuilder textAlign(TextAlign textAlign) {
