@@ -1,0 +1,19 @@
+name: flutter_dsl
+description: A Flutter library that provides a DSL approach to UI building with chain-style API to reduce nesting hell.
+version: 0.1.0
+homepage: https://github.com/yourusername/flutter_dsl
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+  flutter: ">=2.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
