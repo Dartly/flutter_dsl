@@ -13,7 +13,7 @@ dependencies:
   flutter_dsl:
     git:
       url: https://github.com/Dartly/flutter_dsl.git
-      ref: master
+      ref: main
 ```
 
 然后运行：
